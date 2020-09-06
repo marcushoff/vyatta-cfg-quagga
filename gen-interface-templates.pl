@@ -54,6 +54,7 @@ my %interface_hash = (
     'l2tpv3/node.tag'                                             => '$VAR(@)',
     'vxlan/node.tag'                                              => '$VAR(@)',
     'wireguard/node.tag'                                          => '$VAR(@)',
+    'zerotier/node.tag'                                           => '$VAR(@)',
 );
 
 # Hash table to check if the priority needs to set @ root
